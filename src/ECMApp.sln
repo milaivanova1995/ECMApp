@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECMApp.Web", "Web\ECMApp.Web\ECMApp.Web.csproj", "{97692356-09D9-4CC7-8E6C-7FEC2DB200CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECMApp.Data", "ECMApp.Data\ECMApp.Data.csproj", "{21A7A531-2E24-403F-A0BF-4E006942AE4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECMApp.Data.Models", "ECMApp.Data.Models\ECMApp.Data.Models.csproj", "{625EB800-4E44-409F-86F6-6C9C890FB3EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{97692356-09D9-4CC7-8E6C-7FEC2DB200CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97692356-09D9-4CC7-8E6C-7FEC2DB200CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97692356-09D9-4CC7-8E6C-7FEC2DB200CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A7A531-2E24-403F-A0BF-4E006942AE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A7A531-2E24-403F-A0BF-4E006942AE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A7A531-2E24-403F-A0BF-4E006942AE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A7A531-2E24-403F-A0BF-4E006942AE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625EB800-4E44-409F-86F6-6C9C890FB3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625EB800-4E44-409F-86F6-6C9C890FB3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625EB800-4E44-409F-86F6-6C9C890FB3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625EB800-4E44-409F-86F6-6C9C890FB3EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
